@@ -30,6 +30,8 @@ public class Pessoas {
 	
 	private Date DataNascimento;
 	
+	private Date DataCadastro;
+	
 	private int Sexo; 
 
 	private int Estado;
