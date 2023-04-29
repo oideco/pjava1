@@ -10,8 +10,31 @@ public class Pessoas {
 	
 	private int Cidade;
 	
-	private int Cor; 
+	private int Sexo; 
 
+	private int Estado;
+	
+	public int getEstado() {
+		return Estado;
+	}
+	public void setEstado(int estado) {
+		Estado = estado;
+	}
+
+	private int Escolaridade; 
+	
+	public int getEscolaridade() {
+		return Escolaridade;
+	}
+	public void setEscolaridade(int escolaridade) {
+		Escolaridade = escolaridade;
+	}
+	public int getSexo() {
+		return Sexo;
+	}
+	public void setSexo(int sexo) {
+		Sexo = sexo;
+	}
 	public String getNome() {
 		return Nome;			
  }
