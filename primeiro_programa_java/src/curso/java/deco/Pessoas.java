@@ -14,7 +14,14 @@ public class Pessoas {
 	public void setDataNascimento(Date dataNascimento) {
 		DataNascimento = dataNascimento;
 	}
+	private int Endereço;
 
+	public int getEndereço() {
+		return Endereço;
+	}
+	public void setEndereço(int endereço) {
+		Endereço = endereço;
+	}
 	private String Sobrenome;
 	
 	private int idade;
