@@ -1,14 +1,27 @@
 package curso.java.deco;
 
+import java.util.Date;
+
+import org.graalvm.compiler.code.DataSection.Data;
+
 public class Pessoas {
 	
 	private String Nome;
 	 
+	public Date getDataNascimento() {
+		return DataNascimento;
+	}
+	public void setDataNascimento(Date dataNascimento) {
+		DataNascimento = dataNascimento;
+	}
+
 	private String Sobrenome;
 	
 	private int idade;
 	
 	private int Cidade;
+	
+	private Date DataNascimento;
 	
 	private int Sexo; 
 
