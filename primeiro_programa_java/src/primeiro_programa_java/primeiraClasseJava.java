@@ -8,6 +8,9 @@
 		  /*sys CTRL+Espaço = preenchimento automatico*/
         System.out.println("Meu primeiro programa em java");
 }
+	private int Nome;
+	
+	private String Sobrenome;
 	
 	
 
